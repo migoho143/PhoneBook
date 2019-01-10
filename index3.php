@@ -19,15 +19,15 @@
 	<input type="hidden" name="id" value="<?php echo $id; ?>">
 		<div class="form-group">
 		<font color="white"><label for="exampleInputEmail1">Enter Your Name</label>
-			<input type="text" name="firstname" class="form-control" value="<?php echo $firstname;?>"placeholder="Firstname">
+			<input type="text" name="firstname" class="form-control" value="<?php echo $firstname;?>"placeholder="Firstname" required>
 		</div>
 		<div class="form-group">
 		<font color="white"><label for="exampleInputEmail1">Enter Your Lastname</label>
-			<input type="text" name="lastname" class="form-control" value="<?php echo $lastname;?>"placeholder="Lastname">
+			<input type="text" name="lastname" class="form-control" value="<?php echo $lastname;?>"placeholder="Lastname" required>
 		</div>
 		<div class="form-group">
 		<font color="white"><label for="exampleInputEmail1">Enter Your Address</label>
-			<input type="text" name="address" class="form-control" value="<?php echo $address;?>"placeholder="Address">
+			<input type="text" name="address" class="form-control" value="<?php echo $address;?>"placeholder="Address" required>
 		</div>
 		<div class="form-group">
 		<?php 
